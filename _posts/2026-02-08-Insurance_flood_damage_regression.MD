@@ -1,4 +1,9 @@
-# 🌊 Insurance Flood Damage Prediction (NFIP Data)
+---
+layout: post
+title: Insurance Flood Damage Prediction (NFIP Data)
+image: "/posts/flood-damage-title-img.png"
+---
+
 
 ## 🚀 Project Overview
 This project uses FEMA data to predict building damage ratios for Florida properties at risk of flooding. Key challenges found were: data imbalance with many zero damage findings, high missingness (60%), and physical data anomalies.**
