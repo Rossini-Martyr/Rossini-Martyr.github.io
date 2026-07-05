@@ -10,6 +10,8 @@ tags: [RAG, Langchain, Python]
 [![VectorDB: Chroma](https://img.shields.io/badge/VectorDB-Chroma-red)](https://github.com/chroma-core/chroma)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
+![alt text](/img/posts/RAG_Example.gif "Example of RAG Platform")
+
 An end-to-end Retrieval-Augmented Generation (RAG) platform engineered to transform dense, unstructured public sector documentation into a high-performance, natural language query engine. 
 
 ### 🎯 The Problem & Business Value
@@ -69,8 +71,6 @@ The Ontario education curriculum is comprised of a series of documents that cove
 Each core subject has a separate PDF document that covers all of the specific requirements for that particular grade. Teachers have to become very familiar with these documents as these are the guidelines to which they should be teaching for the school year.
 
 To this end, the purpose of this project is to create a chatbot that leverages the power of Generative AI and LLMs to allow teachers to pose questions about the curriculum using natural language, and to receive distilled, summarized results, based on the latest curriculum. Only the Mathematics and Language results are used in this proof of concept. However, this can be easily extended to cover any number of curriculum topics.
-
-
 
 ```python
 import os
@@ -186,4 +186,4 @@ print(f"\n=== ANSWER ===\n{response_text}")
     === ANSWER ===
     The big idea that students are supposed to learn from the Grade 3 Language curriculum is the integration and application of transferable skills—such as critical thinking, communication, collaboration, and digital literacy—across various language and literacy contexts. This includes understanding how these skills support effective communication, enhance engagement in learning, and foster an appreciation of diverse identities and perspectives, particularly in relation to cultural and community contexts. Additionally, students are encouraged to apply their learning across different subject areas and recognize the relevance of these skills in everyday life.
 
-![alt text](/img/posts/RAG_Example.gif "Example of RAG Platform")
+
