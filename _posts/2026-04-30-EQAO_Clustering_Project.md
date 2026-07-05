@@ -121,111 +121,15 @@ for col in cols_to_fix:
   df[col] = pd.to_numeric(df[col].astype(str).str.replace('%', '', regex=False), errors='coerce')
 ```
 
-    C:\Users\rossi\AppData\Local\Temp\ipykernel_1112\790515381.py:17: SettingWithCopyWarning: 
-    A value is trying to be set on a copy of a slice from a DataFrame.
-    Try using .loc[row_indexer,col_indexer] = value instead
-    
-    See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-      df[col] = pd.to_numeric(df[col].astype(str).str.replace('%', '', regex=False), errors='coerce')
-    C:\Users\rossi\AppData\Local\Temp\ipykernel_1112\790515381.py:17: SettingWithCopyWarning: 
-    A value is trying to be set on a copy of a slice from a DataFrame.
-    Try using .loc[row_indexer,col_indexer] = value instead
-    
-    See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-      df[col] = pd.to_numeric(df[col].astype(str).str.replace('%', '', regex=False), errors='coerce')
-    C:\Users\rossi\AppData\Local\Temp\ipykernel_1112\790515381.py:17: SettingWithCopyWarning: 
-    A value is trying to be set on a copy of a slice from a DataFrame.
-    Try using .loc[row_indexer,col_indexer] = value instead
-    
-    See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-      df[col] = pd.to_numeric(df[col].astype(str).str.replace('%', '', regex=False), errors='coerce')
-    C:\Users\rossi\AppData\Local\Temp\ipykernel_1112\790515381.py:17: SettingWithCopyWarning: 
-    A value is trying to be set on a copy of a slice from a DataFrame.
-    Try using .loc[row_indexer,col_indexer] = value instead
-    
-    See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-      df[col] = pd.to_numeric(df[col].astype(str).str.replace('%', '', regex=False), errors='coerce')
-    C:\Users\rossi\AppData\Local\Temp\ipykernel_1112\790515381.py:17: SettingWithCopyWarning: 
-    A value is trying to be set on a copy of a slice from a DataFrame.
-    Try using .loc[row_indexer,col_indexer] = value instead
-    
-    See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-      df[col] = pd.to_numeric(df[col].astype(str).str.replace('%', '', regex=False), errors='coerce')
-    C:\Users\rossi\AppData\Local\Temp\ipykernel_1112\790515381.py:17: SettingWithCopyWarning: 
-    A value is trying to be set on a copy of a slice from a DataFrame.
-    Try using .loc[row_indexer,col_indexer] = value instead
-    
-    See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-      df[col] = pd.to_numeric(df[col].astype(str).str.replace('%', '', regex=False), errors='coerce')
-    C:\Users\rossi\AppData\Local\Temp\ipykernel_1112\790515381.py:17: SettingWithCopyWarning: 
-    A value is trying to be set on a copy of a slice from a DataFrame.
-    Try using .loc[row_indexer,col_indexer] = value instead
-    
-    See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-      df[col] = pd.to_numeric(df[col].astype(str).str.replace('%', '', regex=False), errors='coerce')
-    C:\Users\rossi\AppData\Local\Temp\ipykernel_1112\790515381.py:17: SettingWithCopyWarning: 
-    A value is trying to be set on a copy of a slice from a DataFrame.
-    Try using .loc[row_indexer,col_indexer] = value instead
-    
-    See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-      df[col] = pd.to_numeric(df[col].astype(str).str.replace('%', '', regex=False), errors='coerce')
-    C:\Users\rossi\AppData\Local\Temp\ipykernel_1112\790515381.py:17: SettingWithCopyWarning: 
-    A value is trying to be set on a copy of a slice from a DataFrame.
-    Try using .loc[row_indexer,col_indexer] = value instead
-    
-    See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-      df[col] = pd.to_numeric(df[col].astype(str).str.replace('%', '', regex=False), errors='coerce')
-    C:\Users\rossi\AppData\Local\Temp\ipykernel_1112\790515381.py:17: SettingWithCopyWarning: 
-    A value is trying to be set on a copy of a slice from a DataFrame.
-    Try using .loc[row_indexer,col_indexer] = value instead
-    
-    See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-      df[col] = pd.to_numeric(df[col].astype(str).str.replace('%', '', regex=False), errors='coerce')
-    C:\Users\rossi\AppData\Local\Temp\ipykernel_1112\790515381.py:17: SettingWithCopyWarning: 
-    A value is trying to be set on a copy of a slice from a DataFrame.
-    Try using .loc[row_indexer,col_indexer] = value instead
-    
-    See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-      df[col] = pd.to_numeric(df[col].astype(str).str.replace('%', '', regex=False), errors='coerce')
-    C:\Users\rossi\AppData\Local\Temp\ipykernel_1112\790515381.py:17: SettingWithCopyWarning: 
-    A value is trying to be set on a copy of a slice from a DataFrame.
-    Try using .loc[row_indexer,col_indexer] = value instead
-    
-    See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-      df[col] = pd.to_numeric(df[col].astype(str).str.replace('%', '', regex=False), errors='coerce')
-    C:\Users\rossi\AppData\Local\Temp\ipykernel_1112\790515381.py:17: SettingWithCopyWarning: 
-    A value is trying to be set on a copy of a slice from a DataFrame.
-    Try using .loc[row_indexer,col_indexer] = value instead
-    
-    See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-      df[col] = pd.to_numeric(df[col].astype(str).str.replace('%', '', regex=False), errors='coerce')
-    
-
-
 ```python
 df[cols_to_fix] = df[cols_to_fix].astype(float)
-```
-
-    C:\Users\rossi\AppData\Local\Temp\ipykernel_1112\1486453897.py:1: SettingWithCopyWarning: 
-    A value is trying to be set on a copy of a slice from a DataFrame.
-    Try using .loc[row_indexer,col_indexer] = value instead
-    
-    See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-      df[cols_to_fix] = df[cols_to_fix].astype(float)
-    
+```   
 
 
 ```python
 df['Enrolment'] = pd.to_numeric(df['Enrolment'],errors = 'coerce')
 ```
-
-    C:\Users\rossi\AppData\Local\Temp\ipykernel_1112\1986724618.py:1: SettingWithCopyWarning: 
-    A value is trying to be set on a copy of a slice from a DataFrame.
-    Try using .loc[row_indexer,col_indexer] = value instead
-    
-    See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-      df['Enrolment'] = pd.to_numeric(df['Enrolment'],errors = 'coerce')
-    
+   
 
 **Exploratory Data Analysis**
 
@@ -311,26 +215,27 @@ plt.show()
 ```
 
 
-    
-![png](output_16_0.png)
-    
-
-
-
-    
-![png](output_16_1.png)
+![alt text](/img/posts/output_16_0.png "Pearson Correlation Heatmap")
     
 
 
 
     
-![png](output_16_2.png)
+![alt text](/img/posts/output_16_1.png "Grade 6 Provincial Standard Distribution by Language and Income")
+
+    
+
+
+
+    
+![alt text](/img/posts/output_16_2.png "Socioeconomic Boxplots")
+
     
 
 
 
     
-![png](output_16_3.png)
+![alt text](/img/posts/output_16_3.png "Distribution of 3-Year Grade 6 Achievement Change")
     
 
 
@@ -383,21 +288,12 @@ plt.grid(True, linestyle='--', alpha=0.6)
 plt.show()
 ```
 
-    Starting Silhouette Analysis...
-    k=2 | Silhouette Score: 0.2013
-    k=3 | Silhouette Score: 0.2436
-    k=4 | Silhouette Score: 0.1719
-    k=5 | Silhouette Score: 0.1543
-    k=6 | Silhouette Score: 0.1554
-    k=7 | Silhouette Score: 0.1509
-    k=8 | Silhouette Score: 0.1501
-    k=9 | Silhouette Score: 0.1313
-    k=10 | Silhouette Score: 0.1364
     
 
 
     
-![png](output_17_1.png)
+![alt text](/img/posts/output_17_1.png "Silhouette Analysis")
+
     
 
 
@@ -460,7 +356,7 @@ plt.show()
 
 
     
-![png](output_18_0.png)
+![alt text](/img/posts/output_18_0.png "Silhouette Analysis with SES Clusters")
     
 
 
@@ -559,7 +455,7 @@ plt.show()
 
 
     
-![png](output_20_0.png)
+![alt text](/img/posts/output_20_0.png "Summary of Identified Clusters")
     
 
 
@@ -617,7 +513,7 @@ print(f"The 2D PCA plot captures {total_var:.2f}% of the total multi-dimensional
 
 
     
-![png](output_21_0.png)
+![alt text](/img/posts/output_21_0.png "PCA Analysis Summary")
     
 
 
