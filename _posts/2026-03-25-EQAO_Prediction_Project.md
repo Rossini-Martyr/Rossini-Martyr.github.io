@@ -101,7 +101,6 @@ df_2023 = pd.read_csv(filepath_2023)
 df_2023.head()
 ```
 
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
