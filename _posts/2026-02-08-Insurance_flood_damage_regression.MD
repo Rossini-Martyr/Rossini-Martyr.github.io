@@ -44,7 +44,7 @@ This project utilizes the National Risk Index (NRI) dataset provided by FEMA.
 [Link to FEMA NRI](https://www.fema.gov/openfema-data-page/fima-nfip-redacted-claims-v2)
 
 ```python
-#import libraries here
+#import libraries
 
 import requests
 import pandas as pd
