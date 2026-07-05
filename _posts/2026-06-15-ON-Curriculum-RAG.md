@@ -1,4 +1,9 @@
-# Ontario Curriculum Question and Answer Platform (RAG Engine)
+---
+layout: post
+title: Ontario Curriculum Question and Answer Platform (RAG Engine)
+image: "/posts/causal-impact-title-img.png"
+tags: [RAG, Langchain, Python]
+---
 
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/)
 [![Framework: LangChain](https://img.shields.io/badge/Framework-LangChain%20%28LCEL%29-orange)](https://github.com/langchain-ai/langchain)
