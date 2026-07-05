@@ -1230,7 +1230,7 @@ plt.show()
 
 
     
-![png](output_26_0.png)
+![alt text](/img/posts/output_26_0.png "Exploratory Data Analysis Plot")
     
 
 
@@ -1315,7 +1315,7 @@ for name, score in results.items():
 
 
     
-![png](output_28_1.png)
+![alt text](/img/posts/output_28_1.png "Confusion Matrices of ML Models")
     
 
 
@@ -1414,7 +1414,7 @@ plt.show()
 
 
     
-![png](output_30_1.png)
+![alt text](/img/posts/output_30_1.png "Plot of Most Important Predictors")
     
 
 
