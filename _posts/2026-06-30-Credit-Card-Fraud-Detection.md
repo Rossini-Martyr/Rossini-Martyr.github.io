@@ -7,8 +7,6 @@ tags: [Classification, XGBoost, Fraud Detection, Python]
 
 An end-to-end machine learning project evaluating various anomaly detection models on highly imbalanced credit card transaction data.
 
----
-
 ## 📌 Project Overview & Problem Statement
 
 In real-world financial systems, fraudulent transactions account for a minuscule fraction of overall volume. However, leaving them undetected results in massive financial losses, while over-aggressive models disrupt legitimate user behavior by increasing customer friction.
