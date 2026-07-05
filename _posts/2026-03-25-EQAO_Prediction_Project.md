@@ -1,4 +1,9 @@
-# EQAO Test Scores Prediction Project
+---
+layout: post
+title: Building a Machine Learning Classifier to Predict EQAO Performance
+image: "/posts/eqao-math-predictor-img.png"
+tags: [Classification, Feature Engineering, Python]
+---
 
 ## Project Overview
 
