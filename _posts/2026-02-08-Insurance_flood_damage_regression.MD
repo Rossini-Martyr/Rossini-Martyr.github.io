@@ -5,6 +5,7 @@ image: "/posts/flood-damage-title-img.png"
 tags: [Random Forests, Regression, Python, SHAP]
 ---
 
+![alt text](/img/posts/project_demo.gif "Flood Damage Predictor")
 
 ## 🚀 Project Overview
 This project uses FEMA data to predict building damage ratios for Florida properties at risk of flooding. Key challenges found were: data imbalance with many zero damage findings, high missingness (60%), and physical data anomalies.**
