@@ -43,20 +43,6 @@ This project utilizes the National Risk Index (NRI) dataset provided by FEMA.
 
 [Link to FEMA NRI](https://www.fema.gov/openfema-data-page/fima-nfip-redacted-claims-v2)
 
-# Flood Insurance Damage Ratio Prediction Project
-
-**Aim**: Use the redacted OpenFEMA dataset on flood insurance to predict the damage ratio on buildings which were subject to flood damage.
-
-**Business Value**: By providing the characteristics of a given property as it pertains to flood risk, this model predicts the expected damage ratio (property damage: property value ratio)
-
-**Machine Learning Model**: The best performing model was found to be a Random Forest model which outperformed XGBoost and Linear Regression models. The Random Forest model predicts the damage ratio to within +/- 15%.
-
-Source website: https://www.fema.gov/openfema-data-page/fima-nfip-redacted-claims-v2
-
-
-## ✍️ Author
-**Rossini Martyr** [https://www.linkedin.com/in/rossinimartyr/]
-
 ```python
 #import libraries here
 
