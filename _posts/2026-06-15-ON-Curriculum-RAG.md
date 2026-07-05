@@ -185,3 +185,5 @@ print(f"\n=== ANSWER ===\n{response_text}")
     
     === ANSWER ===
     The big idea that students are supposed to learn from the Grade 3 Language curriculum is the integration and application of transferable skills—such as critical thinking, communication, collaboration, and digital literacy—across various language and literacy contexts. This includes understanding how these skills support effective communication, enhance engagement in learning, and foster an appreciation of diverse identities and perspectives, particularly in relation to cultural and community contexts. Additionally, students are encouraged to apply their learning across different subject areas and recognize the relevance of these skills in everyday life.
+
+![alt text](/img/posts/RAG_Example.gif "Example of RAG Platform")
