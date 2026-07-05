@@ -1,4 +1,9 @@
-# EQAO Test Scores Clustering Analysis
+---
+layout: post
+title: EQAO School Performance Segmentation Project
+image: "/posts/causal-impact-title-img.png"
+tags: [Segmentation Analysis, PCA, Python]
+---
 
 ## Project Overview
 
