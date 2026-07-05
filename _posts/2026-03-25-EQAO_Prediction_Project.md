@@ -44,7 +44,6 @@ In this project, the following machine learining algorithms will be used:
   In all cases, a "threshold value" has to be determined. When this value is exceeded, we interpret the probability as 'True'. As a starting point, this value is usually taken as 0.5. However, since we want to minimize false negatives (i.e. we don't want to miss out on schools that are high risk), we may choose to adjust this threshold as we optimize for the Recall vaue (TP / (TP + FN))
 
 
-
 ## Data Overview and Preparation
 
 **Data Overview**
