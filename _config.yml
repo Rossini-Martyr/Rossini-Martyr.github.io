@@ -25,7 +25,7 @@ avatar_image: /img/IMG-20240128-WA0024.jpg
 linkedln: "https://www.linkedin.com/in/rossinimartyr/" # Add your linkedln handle
 github: "https://github.com/Rossini-Martyr/"  # Add your github handle
 
-paginate: 6
+paginate: 12
 paginate_path: "/page/:num"
 
 sass:
