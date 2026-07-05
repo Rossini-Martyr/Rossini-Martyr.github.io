@@ -1,4 +1,9 @@
-# Credit Card Fraud Detection Project
+---
+layout: post
+title: Building a Machine Learning Classifier to Detect Credit Card Fraud
+image: "/posts/causal-impact-title-img.png"
+tags: [Classification, XGBoost, Fraud Detection, Python]
+---
 
 An end-to-end machine learning project evaluating various anomaly detection models on highly imbalanced credit card transaction data.
 
