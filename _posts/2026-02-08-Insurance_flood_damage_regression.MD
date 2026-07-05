@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Insurance Flood Damage Prediction (NFIP Data)
+title: Insurance Flood Damage Prediction
 image: "/posts/flood-damage-title-img.png"
 tags: [Random Forests, Regression, Python, SHAP]
 ---
