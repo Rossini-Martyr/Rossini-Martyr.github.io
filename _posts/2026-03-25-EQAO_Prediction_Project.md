@@ -5,6 +5,8 @@ image: "/posts/eqao-math-predictor-img.png"
 tags: [Classification, Feature Engineering, Python]
 ---
 
+![alt text](/img/posts/EQAO_Risk_Prediction.gif "Example of EQAO School Prediction")
+
 ## Project Overview
 
 EQAO is an evidence-based research-informed organization in Ontario, Canada, that is focused on empowering educators, parents, guardians, stakeholders and the public at large with the insights and information needed to support student learning and improve student outcomes. To this end, they administer standardized tests to Grade 3, 6, and 9 in order to evaluate whether students at individual schools are performing to the provincial standard in the following subjects: Reading, Writing, Mathematics.
