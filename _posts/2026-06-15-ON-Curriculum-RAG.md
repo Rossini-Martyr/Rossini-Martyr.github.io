@@ -5,8 +5,6 @@
 [![VectorDB: Chroma](https://img.shields.io/badge/VectorDB-Chroma-red)](https://github.com/chroma-core/chroma)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-> ![Ontario Curriculum RAG App Demo](RAG_Example.gif)
-
 An end-to-end Retrieval-Augmented Generation (RAG) platform engineered to transform dense, unstructured public sector documentation into a high-performance, natural language query engine. 
 
 ### 🎯 The Problem & Business Value
