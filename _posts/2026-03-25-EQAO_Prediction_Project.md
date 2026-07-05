@@ -930,81 +930,15 @@ for col in cols_to_fix:
   df[col] = pd.to_numeric(df[col].astype(str).str.replace('%', '', regex=False), errors='coerce')
 ```
 
-    C:\Users\rossi\AppData\Local\Temp\ipykernel_11224\124181632.py:12: SettingWithCopyWarning: 
-    A value is trying to be set on a copy of a slice from a DataFrame.
-    Try using .loc[row_indexer,col_indexer] = value instead
-    
-    See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-      df[col] = pd.to_numeric(df[col].astype(str).str.replace('%', '', regex=False), errors='coerce')
-    C:\Users\rossi\AppData\Local\Temp\ipykernel_11224\124181632.py:12: SettingWithCopyWarning: 
-    A value is trying to be set on a copy of a slice from a DataFrame.
-    Try using .loc[row_indexer,col_indexer] = value instead
-    
-    See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-      df[col] = pd.to_numeric(df[col].astype(str).str.replace('%', '', regex=False), errors='coerce')
-    C:\Users\rossi\AppData\Local\Temp\ipykernel_11224\124181632.py:12: SettingWithCopyWarning: 
-    A value is trying to be set on a copy of a slice from a DataFrame.
-    Try using .loc[row_indexer,col_indexer] = value instead
-    
-    See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-      df[col] = pd.to_numeric(df[col].astype(str).str.replace('%', '', regex=False), errors='coerce')
-    C:\Users\rossi\AppData\Local\Temp\ipykernel_11224\124181632.py:12: SettingWithCopyWarning: 
-    A value is trying to be set on a copy of a slice from a DataFrame.
-    Try using .loc[row_indexer,col_indexer] = value instead
-    
-    See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-      df[col] = pd.to_numeric(df[col].astype(str).str.replace('%', '', regex=False), errors='coerce')
-    C:\Users\rossi\AppData\Local\Temp\ipykernel_11224\124181632.py:12: SettingWithCopyWarning: 
-    A value is trying to be set on a copy of a slice from a DataFrame.
-    Try using .loc[row_indexer,col_indexer] = value instead
-    
-    See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-      df[col] = pd.to_numeric(df[col].astype(str).str.replace('%', '', regex=False), errors='coerce')
-    C:\Users\rossi\AppData\Local\Temp\ipykernel_11224\124181632.py:12: SettingWithCopyWarning: 
-    A value is trying to be set on a copy of a slice from a DataFrame.
-    Try using .loc[row_indexer,col_indexer] = value instead
-    
-    See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-      df[col] = pd.to_numeric(df[col].astype(str).str.replace('%', '', regex=False), errors='coerce')
-    C:\Users\rossi\AppData\Local\Temp\ipykernel_11224\124181632.py:12: SettingWithCopyWarning: 
-    A value is trying to be set on a copy of a slice from a DataFrame.
-    Try using .loc[row_indexer,col_indexer] = value instead
-    
-    See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-      df[col] = pd.to_numeric(df[col].astype(str).str.replace('%', '', regex=False), errors='coerce')
-    C:\Users\rossi\AppData\Local\Temp\ipykernel_11224\124181632.py:12: SettingWithCopyWarning: 
-    A value is trying to be set on a copy of a slice from a DataFrame.
-    Try using .loc[row_indexer,col_indexer] = value instead
-    
-    See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-      df[col] = pd.to_numeric(df[col].astype(str).str.replace('%', '', regex=False), errors='coerce')
-    
-
-
 ```python
 df[cols_to_fix] = df[cols_to_fix].astype(float)
-```
-
-    C:\Users\rossi\AppData\Local\Temp\ipykernel_11224\1486453897.py:1: SettingWithCopyWarning: 
-    A value is trying to be set on a copy of a slice from a DataFrame.
-    Try using .loc[row_indexer,col_indexer] = value instead
-    
-    See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-      df[cols_to_fix] = df[cols_to_fix].astype(float)
-    
+```  
 
 
 ```python
 df['Enrolment'] = pd.to_numeric(df['Enrolment'],errors = 'coerce')
 ```
-
-    C:\Users\rossi\AppData\Local\Temp\ipykernel_11224\1986724618.py:1: SettingWithCopyWarning: 
-    A value is trying to be set on a copy of a slice from a DataFrame.
-    Try using .loc[row_indexer,col_indexer] = value instead
-    
-    See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-      df['Enrolment'] = pd.to_numeric(df['Enrolment'],errors = 'coerce')
-    
+  
 
 
 ```python
@@ -1404,15 +1338,6 @@ plt.ylabel('Feature Name')
 plt.tight_layout()
 plt.show()
 ```
-
-    C:\Users\rossi\AppData\Local\Temp\ipykernel_11224\671731891.py:17: FutureWarning: 
-    
-    Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.
-    
-      sns.barplot(x='Importance', y='Feature', data=feature_importance_df.head(15), palette='magma')
-    
-
-
     
 ![alt text](/img/posts/output_30_1.png "Plot of Most Important Predictors")
     
@@ -1470,8 +1395,6 @@ joblib.dump(full_pipeline, 'ontario_school_model.pkl')
 
 print("Deployment pipeline saved successfully.")
 ```
-
-    Deployment pipeline saved successfully.
     
 
 ## Next Steps
