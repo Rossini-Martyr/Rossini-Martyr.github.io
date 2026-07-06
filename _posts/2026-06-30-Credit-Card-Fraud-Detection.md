@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Building a Machine Learning Classifier to Detect Credit Card Fraud
-image: "/posts/causal-impact-title-img.png"
+image: "/posts/fraud-detection-img.png"
 tags: [Classification, XGBoost, Fraud Detection, Python]
 ---
 
