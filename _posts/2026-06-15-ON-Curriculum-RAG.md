@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ontario Curriculum Question and Answer Platform
-image: "/posts/causal-impact-title-img.png"
+image: "/posts/ontario-rag-img.png"
 tags: [RAG, Langchain, Python]
 ---
 
