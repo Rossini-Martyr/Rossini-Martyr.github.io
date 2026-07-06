@@ -1,7 +1,7 @@
 ---
 layout: post
 title: EQAO School Performance Segmentation Project
-image: "/posts/causal-impact-title-img.png"
+image: "/posts/eqao-k-means-img.png"
 tags: [Segmentation Analysis, PCA, Python]
 ---
 
