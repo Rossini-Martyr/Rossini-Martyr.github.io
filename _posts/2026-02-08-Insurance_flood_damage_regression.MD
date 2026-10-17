@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Insurance Flood Damage Prediction
+title: Using ML to Estimate Catastrophe Loss due to Flooding
 image: "/posts/flood-damage-title-img.png"
-tags: [Random Forests, Regression, Python, SHAP]
+tags: [XGBoost, Regression, Python, SHAP]
 ---
 
 ![alt text](/img/posts/project_demo.gif "Flood Damage Predictor")
@@ -15,12 +15,12 @@ This project uses FEMA data to predict building damage ratios for Florida proper
 
 * Targeted Feature Engineering: Derived high-signal variables such age_of_property. SHAP validation confirmed these as top-tier predictors of structural resilience.
 
-* Predictive Optimization: Leveraged GridSearchCV to tune a Random Forest Regressor, prioritizing Mean Absolute Error (MAE) to ensure the model's error margins for model evaluation.
+* Predictive Optimization: Leveraged GridSearchCV to tune an XGBoost regression model, prioritizing Mean Absolute Error (MAE) to ensure the model's error margins for model evaluation.
 
 * Full-Stack Deployment: Engineered a Streamlit dashboard that encapsulates the entire data pipeline—from raw user input to final loss estimation—enabling non-technical stakeholders to interact with the model and glean insights.
 
 ## 🛠️ Tech Stack
-* **Modeling:** RandomForest Regressor
+* **Modeling:** XGBoost
 * **Interpretability:** SHAP
 * **Deployment:** Streamlit, Joblib
 * **Data Handling:** Pandas, NumPy, Scikit-Learn
