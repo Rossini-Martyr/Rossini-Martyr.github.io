@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Using ML to Estimate Catastrophe Loss due to Flooding
-image: "/posts/flood-damage-title-img.png"
+image: "/posts/Predictive_Flood_Loss_Model.jpg"
 tags: [XGBoost, Regression, Python, SHAP]
 ---
 
