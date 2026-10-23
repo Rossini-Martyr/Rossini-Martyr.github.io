@@ -9,7 +9,7 @@ plugins:
 #-------------------------------
 # General Site Settings
 title: Rossini Martyr
-description: "I'm a Data Scientist and structural engineer with over a decade of experience, saving clients over $300,000 through data-driven solutions.  My portfolio focuses on interesting projects I've undertaken, with a strong emphasis on business impact. Please visit my Github & LinkedIn pages (or download my Resume) by using the links below!"
+description: "I'm a Data Scientist and Structural Engineer with over a decade of experience, saving clients over $300,000 through data-driven solutions.  My portfolio focuses on interesting projects I've undertaken, with a strong emphasis on business impact. Please visit my Github & LinkedIn pages (or download my Resume) by using the links below!"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
